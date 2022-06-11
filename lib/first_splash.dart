@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class FirstSplash extends StatelessWidget {
   const FirstSplash({Key? key}) : super(key: key);

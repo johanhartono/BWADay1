@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'second_splash.dart';
+import 'first_splash.dart';
 
 void main() {
   runApp(const SevenDays());
@@ -13,8 +13,8 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Seven Days Flutter Demo',
-        home: SecondSplash(),
+        title: 'Seven Days Flutter Demo day 1',
+        home: FirstSplash(),
         );
   }
 }
