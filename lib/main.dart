@@ -1,6 +1,5 @@
-import 'package:bwadesigntocodeday1/first_splash.dart';
 import 'package:flutter/material.dart';
-import 'first_splash.dart';
+import 'second_splash.dart';
 
 void main() {
   runApp(const SevenDays());
@@ -15,7 +14,7 @@ class SevenDays extends StatelessWidget {
     return const MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Seven Days Flutter Demo',
-        home: FirstSplash()
+        home: SecondSplash(),
         );
   }
 }
